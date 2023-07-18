@@ -214,7 +214,7 @@ nav{
 .more-games{
     display: grid;grid-template-columns: repeat(5,1fr);
     width: 80%;
-    margin: 0 auto;
+    margin: 120px auto;
     align-items: center;
     gap: 28px;
     justify-content: center;
@@ -251,6 +251,50 @@ nav{
 
 /* footer section start  */
 
-
-
+footer{
+    background: #0B0223;
+}
+.footer-logo-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
+}
+.primary-white{
+    color: #FFF;
+}
+.contact{
+    text-align: center;
+}
+.contact a{
+    color: #FFF;
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: 60px;
+}
+.social-link{
+    display: flex;
+    justify-content: center;
+    margin-top: 65px;
+}
+.social-link div{
+    margin-left: 40px;
+}
+.footer-desc{
+    text-align: center;
+    margin-top: 75px;
+    margin-bottom: 30px;
+}
+.footer-desc a{
+    color: rgba(255, 255, 255, 0.60);
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 60px;
+}
+.copy-right{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-weight: 500;
+    padding-bottom: 130px;
+}
 /* footer section end */
