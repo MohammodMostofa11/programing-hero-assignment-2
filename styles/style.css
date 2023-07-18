@@ -148,6 +148,7 @@ nav{
     text-align: center;
     font-size: 1.125rem;
     font-weight: 400;
+    margin-bottom: 48px;
 }
 .cards{
     width: 80%;
@@ -156,4 +157,48 @@ nav{
     grid-template-columns: repeat(4, 1fr);
     gap: 24px;
 }
+.card-desc{
+    margin-top: 24px;
+    padding-left: 5px;
+    color: #534C64;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
 /* online section end  */
+
+/* instant section start  */
+.instant-play-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1920px;
+    height: auto;
+    margin: 120px 240px 440px;
+}
+.instant-title{
+    color: #0B0223;
+    text-align: right;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.istant-desc{
+    color: #534C64;
+    text-align: right;
+    font-size: 1.125rem;
+    font-weight: 400;
+    width: 353px;
+}
+.instant-play-img{
+    width: 50%;
+}
+.instant-main-pic{
+    width: 634.833px;
+    height: 650px;
+    position: relative;
+}
+.instant-mini-pic{
+    position: absolute;
+    margin-top: -300px;
+    margin-left: -150px;
+}
+/* instant section end  */
