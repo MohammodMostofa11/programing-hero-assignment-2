@@ -2,17 +2,27 @@
 @media screen and (max-width:576px) {
 
     .nav-container,
-    .nav-item-container
+    .nav-item-container,
+    .banner-container
     {
         flex-direction: column;
     }
     .nav-item-container{
-        gap: 10px
-        ;
+        gap: 10px;
+    }
+    .banner-container{
+        flex-direction: column-reverse;
+    }
+    .big-img
+    {
+        width: 300px;
+    }
+    .banner-container{
+        width: 576px;
     }
 }
 /* tablet devices responsive */
-@media screen and (min-width:576px) and (max-width:768px) {
+@media screen and (min-width:576px) and (max-width:960px) {
     .nav-item-container{
         gap: 10px;
         flex-direction: column;
