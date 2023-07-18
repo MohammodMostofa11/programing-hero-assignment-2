@@ -171,9 +171,8 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 1920px;
-    height: auto;
-    margin: 120px 240px 0px 440px;
+    width: 90%;
+    margin: 120px auto;
 }
 .instant-title{
     color: #0B0223;
@@ -191,7 +190,7 @@ nav{
     margin-top: 24px;
 }
 .instant-play-img{
-    width: 50%;
+    /* width: 50%; */
 }
 .instant-main-pic{
     width: 634.833px;
