@@ -1,0 +1,68 @@
+/* sheard styles */
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Work+Sans:wght@500;600;700;800&display=swap');
+
+.primary-color{
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* nav related styles */
+nav{
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.nav-container{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.nav-logo-container{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    width: 86px;
+    height: 40px;
+    margin-top: 52px;
+    margin-right: 10px;
+}
+.nav-title{
+    display: flex;
+    align-items: center;
+    font-family: Work Sans;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+.nav-item-container{
+    /* width: 50%; */
+    display: flex;
+    justify-content: flex-end;
+}
+.nav-item-container a{
+    text-decoration: none;
+    color: #3C354F;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 1.12;
+    font-weight: 500;
+    margin-left: 32px;
+}
+.follow{
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 17px 24px;
+
+}
+.nav-item{
+    margin-top: 15px;
+}
+.fa-youtube{
+    margin-right: 15px;
+    margin-left: 15px;
+}
