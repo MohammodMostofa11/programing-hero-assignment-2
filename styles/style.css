@@ -156,6 +156,7 @@ nav{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 24px;
+    
 }
 .card-desc{
     margin-top: 24px;
@@ -164,6 +165,43 @@ nav{
     font-size: 1.25rem;
     font-weight: 500;
 }
+.card{
+    position: relative;
+}
+.card-img{
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.card-img-icon{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+.card:hover .card-img {
+    opacity: 0.3;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+  }
+  
+.card:hover .card-img-icon {
+    opacity: 1;
+    cursor: pointer;
+  }
 /* online section end  */
 
 /* instant section start  */
@@ -211,7 +249,8 @@ nav{
     margin-top: 200px;
 }
 .more-games{
-    display: grid;grid-template-columns: repeat(5,1fr);
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
     width: 80%;
     margin: 120px auto;
     align-items: center;

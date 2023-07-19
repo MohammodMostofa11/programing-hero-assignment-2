@@ -24,10 +24,3 @@
     
 }
     
-
-/* tablet devices responsive */
-@media screen and (min-width:576px) and (max-width:960px) {
-    .nav-item-container{
-        gap: 10px;
-        flex-direction: column;
-}
